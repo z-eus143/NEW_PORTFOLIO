@@ -134,6 +134,10 @@ nav{
     align-items: center;
 }
 
+.manue{
+    display: none;
+}
+
 .resume{
     border-right: 0.5px solid #20303c;
     padding-right: 30px;
@@ -324,3 +328,71 @@ footer i:hover{
     animation-delay: 1.8s; 
 }
 
+@media (max-width: 500px){
+    .icons{
+        display: none;
+    }
+    #txt_1{
+        display: none;
+    }
+    button{
+        display: none;
+    }
+    .nav_link{
+        display: none;
+    }
+    .intro_txt1{
+        font-size: 23px;
+    }
+    .intro_txt2{
+        font-size: 22px;
+    }
+    nav{
+        width: 100%;
+    }
+    .manue{
+        display: inline-block;
+        font-size: 30px;
+        align-content: center;
+        position: relative;
+        left: 130px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .main_image{
+        height: 400px;
+        width: 400px;
+        position: relative;
+        left: 65px;
+        top: 470px;
+    }
+    .main_text{
+        position: relative;
+        top: -550px;
+        left: 50px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .main_txt{
+        width: 450px;
+        font-size: 22px;
+    }
+    .link_sec a{
+        height: 120px;
+        width: 120px;
+    }
+    hr{
+        width: 100%;
+        margin: -30px 30px 10px;
+    }
+    footer{
+        flex-direction: column;
+        align-items: start;
+        padding-left: 50px;
+        row-gap: 20px;
+    }
+}
